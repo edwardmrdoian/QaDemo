@@ -1,15 +1,139 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 4, "title": "Post 4" }
+  "authors": [
+    {
+      "id": 1,
+      "name": "Albert Einstein",
+      "birthYear": 1879,
+      "nationality": "German",
+      "knownFor": "Theory of Relativity",
+      "bio": "Theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics.",
+      "activeYears": "1900–1955"
+    },
+    {
+      "id": 2,
+      "name": "Maya Angelou",
+      "birthYear": 1928,
+      "nationality": "American",
+      "knownFor": "Poetry and Civil Rights Activism",
+      "bio": "American poet, memoirist, and civil rights activist known for her influential works on identity and empowerment.",
+      "activeYears": "1950–2014"
+    },
+    {
+      "id": 3,
+      "name": "Friedrich Nietzsche",
+      "birthYear": 1844,
+      "nationality": "German",
+      "knownFor": "Philosophy of Existentialism",
+      "bio": "German philosopher known for his writings on morality, culture, and the human condition.",
+      "activeYears": "1869–1889"
+    },
+    {
+      "id": 4,
+      "name": "Steve Jobs",
+      "birthYear": 1955,
+      "nationality": "American",
+      "knownFor": "Apple Inc. Co-founder",
+      "bio": "Entrepreneur, inventor, and business magnate who co-founded Apple and revolutionized consumer electronics.",
+      "activeYears": "1976–2011"
+    },
+    {
+      "id": 5,
+      "name": "Confucius",
+      "birthYear": -551,
+      "nationality": "Chinese",
+      "knownFor": "Philosophy and Ethics",
+      "bio": "Chinese philosopher and politician known for his teachings on morality, social relationships, and justice.",
+      "activeYears": "551–479 BC"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "edwardmrdoian"
-  }
+  "quotes": [
+    {
+      "id": 1,
+      "authorId": 1,
+      "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+      "category": "Motivation",
+      "year": 1930,
+      "likes": 12450,
+      "language": "English",
+      "dateAdded": "2021-06-10",
+      "description": "Einstein reflects on persistence and the importance of progress."
+    },
+    {
+      "id": 2,
+      "authorId": 2,
+      "quote": "You will face many defeats in life, but never let yourself be defeated.",
+      "category": "Inspiration",
+      "year": 1970,
+      "likes": 9800,
+      "language": "English",
+      "dateAdded": "2021-06-12",
+      "description": "Angelou encourages resilience and perseverance despite life’s challenges."
+    },
+    {
+      "id": 3,
+      "authorId": 3,
+      "quote": "He who has a why to live can bear almost any how.",
+      "category": "Philosophy",
+      "year": 1888,
+      "likes": 15800,
+      "language": "German",
+      "dateAdded": "2021-07-01",
+      "description": "A philosophical reflection about purpose and human strength."
+    },
+    {
+      "id": 4,
+      "authorId": 4,
+      "quote": "Your time is limited, so don’t waste it living someone else’s life.",
+      "category": "Motivation",
+      "year": 2005,
+      "likes": 20400,
+      "language": "English",
+      "dateAdded": "2021-07-05",
+      "description": "Jobs inspires individuality and the courage to follow your own path."
+    },
+    {
+      "id": 5,
+      "authorId": 5,
+      "quote": "It does not matter how slowly you go as long as you do not stop.",
+      "category": "Wisdom",
+      "year": -500,
+      "likes": 18700,
+      "language": "Chinese",
+      "dateAdded": "2021-07-09",
+      "description": "Ancient wisdom emphasizing patience and persistence."
+    },
+    {
+      "id": 6,
+      "authorId": 2,
+      "quote": "If you don't like something, change it. If you can't change it, change your attitude.",
+      "category": "Inspiration",
+      "year": 1980,
+      "likes": 9400,
+      "language": "English",
+      "dateAdded": "2021-07-11",
+      "description": "Angelou reminds us that our mindset defines how we experience the world."
+    },
+    {
+      "id": 7,
+      "authorId": 1,
+      "quote": "Imagination is more important than knowledge.",
+      "category": "Creativity",
+      "year": 1929,
+      "likes": 15300,
+      "language": "English",
+      "dateAdded": "2021-08-01",
+      "description": "A call to value creativity over rigid understanding."
+    },
+    {
+      "id": 8,
+      "authorId": 4,
+      "quote": "Innovation distinguishes between a leader and a follower.",
+      "category": "Leadership",
+      "year": 2001,
+      "likes": 16800,
+      "language": "English",
+      "dateAdded": "2021-08-07",
+      "description": "Jobs highlights creativity and originality as leadership traits."
+    }
+  ]
 }
