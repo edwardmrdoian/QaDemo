@@ -9,10 +9,10 @@ It contains data about **famous authors** and their **quotes**, allowing you to 
 ## 🌐 Base URL
 
 ```
-https://my-json-server.typicode.com/<your-username>/quotes-db
+https://my-json-server.typicode.com/edwardmrdoian/quotes-db
 ```
 
-*(Replace `<your-username>` with your GitHub username.)*
+*(Replace `<Myusername>` with your GitHub username.)*
 
 ---
 
